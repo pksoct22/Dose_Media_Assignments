@@ -1,0 +1,97 @@
+
+/*MAIN*/
+body { 
+	font-size: 1.05em;
+	line-height: 1.25em;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	background: white;
+	color: #555;
+}
+
+a {
+
+	color: #4C9CF1;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+
+img {
+
+	width: 100%;
+
+}
+
+header {
+
+	background: #fff;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid #4C9CF1;
+	z-index: 100;
+
+}
+
+#logo{
+
+	margin: 20px;
+	float: left;
+	width: 300px;
+	height: 70px;
+	background: url(../img/logo.png) no-repeat center;
+	display: block;
+
+}
+
+nav {
+
+	float: right;
+	padding: 20px;	
+	
+}
+
+.current {
+
+	color: #2262AD;
+
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.button {
+  background-color: #ff3399;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   border-radius:5px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+	header {
+
+		position: absolute;
+
+	}
+
+	
+	
+
+	
